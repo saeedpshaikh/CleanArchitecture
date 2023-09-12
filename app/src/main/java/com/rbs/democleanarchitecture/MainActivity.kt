@@ -1,6 +1,7 @@
 package com.rbs.democleanarchitecture
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
@@ -149,6 +150,7 @@ fun BottomNavigationBar(
 @Composable
 fun Greeting(name: String) {
     Text(text = "Hello $name!")
+    Log.d("MainActivity","Greeting()")
 }
 
 @Preview(showBackground = true)
