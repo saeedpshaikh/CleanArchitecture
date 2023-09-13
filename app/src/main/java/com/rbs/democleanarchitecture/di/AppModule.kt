@@ -1,6 +1,6 @@
 package com.rbs.democleanarchitecture.di
 
-import com.rbs.democleanarchitecture.common.Constants
+import com.rbs.democleanarchitecture.common.*
 import com.rbs.democleanarchitecture.data.remote.CoinPaprikaApi
 import com.rbs.democleanarchitecture.data.repository.CoinRepositoryImpl
 import com.rbs.democleanarchitecture.domain.repository.CoinRepository
